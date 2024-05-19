@@ -1,0 +1,67 @@
+
+body{
+    background-color: #7B96F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+aside img{
+    float: left;
+    height: 7em;
+    width: 6em;
+    clear: left;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 1.5em;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: 0s;
+}
+nav{
+    float: right;
+}
+.moviesandfav{
+    padding-top: 2em;
+    clear: left;
+}    
+.moviesandfav ul li{
+    padding-inline: 1em;
+    list-style-type: none;
+    display: inline;
+    width: 3em;
+    height: 5em;
+    margin-right: 1em;
+}    
+.coming{
+    padding-top: 2em; 
+}
+.coming ul li{
+    padding-inline: 1em;
+    list-style-type: none;
+    display: inline;
+    width: 3em;
+    height: 5em;
+    margin-right: 1em;
+}
+.zoom ul li img {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  .zoom ul li img:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
+  footer{
+    background-color: #4D72F4;
+  }
+  .footerbottom{
+    text-align: center;
+    height: 3em;
+  }
+  
